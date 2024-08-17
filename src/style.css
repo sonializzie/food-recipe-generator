@@ -1,0 +1,71 @@
+body {
+  background-color: #95d2b3; /*Background color based on the body*/
+  font-family: Lato; /*Based from the Google font import link from index.html */
+}
+
+a {
+  color: #134b70; /*a href link tags from the footer font color*/
+}
+
+.container {
+  margin: 120px auto; /*Layout of the container*/
+  max-width: 600px; /*Based on the max-width of container*/
+}
+
+header {
+  margin-bottom: 30px; /*Regarding on the the heading text layout*/
+}
+
+h1 {
+  text-align: center; /*Text is positioned center*/
+  font-weight: 800; /*Font weight for font*/
+  font-size: 36px; /*Font size for h1 text*/
+  line-height: 1.5; /*Line height spacing for h1*/
+  color: #1e201e; /*Font color for h1 text*/
+}
+
+form {
+  padding: 30px; /*Form padding layout*/
+  background-color: #ffffff; /*Background color for form*/
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08); /*Box shadow for form layout*/
+  border-radius: 10px; /*Rounded corners for the form layout*/
+  display: flex; /*Flexible layout for form*/
+  margin-bottom: 30px; /*Margin bottom layout for form*/
+}
+
+.instructions {
+  padding: 16px; /*padding for the input form text layout*/
+  font-family: Lato; /*Font family from Google Fonts link*/
+  border: 1px solid rgba(39, 33, 66, 0.5); /*outer border color for form text*/
+  width: 80%; /*width fot form text layout*/
+  font-size: 16px; /*font size for form input text layout*/
+  border-radius: 50px; /*border-radius layout for form input text */
+  line-height: 20px; /*line height layout for form input text*/
+  color: #1e201e; /*color font for inpur form text layout*/
+}
+
+.submit-button {
+  margin-left: 10px; /*Submit Button for margin*/
+  background-color: #55ad9b; /*Background color for submit button*/
+  color: #ffffff; /*Submit button for font*/
+  border: none; /*No borders for submit button*/
+  width: 150px; /*Width for submit button*/
+  font-size: 16px; /*Font size for submit button*/
+  border-radius: 50px; /*Rounded radius for submit button*/
+  padding: 14px 24px; /*Padding for submit button*/
+}
+
+.recipe {
+  font-size: 16px; /*Font size for recipe text*/
+  background-color: #ffffff; /*Font color for recipe text*/
+  padding: 20px; /*Padding for recipe div*/
+  line-height: 2; /*Line-height for recipe class*/
+  border-left: 3px solid #55ad9b; /*Border-left for recipe class*/
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03); /*Box-shadow for recipe class*/
+}
+
+footer {
+  text-align: center; /*Footer text is positioned center*/
+  font-size: 13px; /*Font text for footer*/
+  margin-top: 30px; /*Margin-top for footer*/
+}
