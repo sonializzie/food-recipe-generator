@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Imported TypewriterJS -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <!-- Google Fonts Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,7 +33,7 @@
       <!-- Beginning of main tag -->
       <main>
         <!-- Beginning of form tag -->
-        <form action="">
+        <form id="recipe-generator-form">
           <!-- Input text form -->
           <input
             type="text"
@@ -45,41 +48,8 @@
         </form>
         <!-- End of form tag -->
 
-        <!-- Beginning of div tag -->
-        <div class="recipe">
-          <!-- Beginning of ol tag -->
-          <ol>
-            <li>Crack the egg into a bowl and whisk it lightly.</li>
-
-            <li>Heat a non-stick pan over medium heat.</li>
-
-            <li>
-              Add the diced tomato to the pan and cook for about 2-3 minutes,
-              until they start to soften.
-            </li>
-            <li>Pour the whisked egg over the tomatoes in the pan.</li>
-
-            <li>
-              Let the egg cook for about 2-3 minutes, until the edges start to
-              set.
-            </li>
-
-            <li>
-              Use a spatula to gently lift and fold the edges of the egg towards
-              the center, allowing the uncooked egg to flow to the edges.
-            </li>
-
-            <li>
-              Continue cooking for another 1-2 minutes, until the egg is almost
-              set.
-            </li>
-
-            <li>
-              Slide the frittata out of the pan onto a plate and serve hot.
-            </li>
-          </ol>
-          <!-- End of ol tag -->
-        </div>
+        <!-- Beginning of div recipe tag -->
+        <div class="recipe" id="recipe"></div>
         <!-- End of div recipe tag -->
       </main>
       <!-- End of main tag -->
