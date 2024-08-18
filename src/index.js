@@ -33,6 +33,13 @@ function generateRecipe(event) {
   //   Constructed the full API Url with the prompt, context and API key
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  //   Selected the element where the recipe that will be displayed
+  let recipeElement = document.querySelector("#recipe");
+  //   Remove the "hidden" class from the recipe element to make it visible
+  recipeElement.classList.remove("hidden");
+  // Set the inner HTML of the recipe element to show a message indicating that the recipe is being generated
+  recipeElement.innerHTML = `<div class="generating">⏳ Generating Food Recipe about ${instructionsInput.value}</div>`;
+
   //   Logged messages to the console to be able to indicate that the recipe instructions has started
   console.log("Generating Recipe... Please Wait...");
   console.log(`Prompt: ${prompt}`);

@@ -29,31 +29,39 @@
     <div class="container">
       <!-- Beginning of header tag -->
       <header>
+        <!-- h1 tag for AI Food Recipe -->
         <h1>AI Food Recipe Generator</h1>
       </header>
       <!-- End of header tag -->
 
       <!-- Beginning of main tag -->
       <main>
-        <!-- Beginning of form tag -->
-        <form id="recipe-generator-form">
-          <!-- Input text form -->
-          <input
-            type="text"
-            placeholder="Enter a type of recipe."
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <!-- Input submit button -->
-          <input type="submit" class="submit-button" />
-        </form>
-        <!-- End of form tag -->
+        <!-- Beginning of class form container -->
+        <div class="form-container">
+          <!-- Beginning of form tag -->
+          <form id="recipe-generator-form">
+            <!-- Input text form -->
+            <input
+              type="text"
+              placeholder="Enter a type of recipe."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <!-- Input submit button -->
+            <input type="submit" class="submit-button" />
+          </form>
+          <!-- End of form tag -->
+          <!-- Beginning of hint class -->
+          <div class="hint">i.e: Make a egg tomato recipe</div>
+          <!-- End of hint class -->
+        </div>
+        <!-- End of class form container -->
 
         <!-- Beginning of div recipe tag -->
-        <div class="recipe" id="recipe"></div>
+        <div class="recipe hidden" id="recipe"></div>
         <!-- End of div recipe tag -->
       </main>
       <!-- End of main tag -->
